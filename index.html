@@ -1,14 +1,14 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Prata&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/dcded41796.js" crossorigin="anonymous"></script>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Curriculo Vitae - Amanda Boza</title>
 
     <style>
         #header {
@@ -23,15 +23,62 @@
             margin: 0 auto;
             text-align: center;
         }
+        #contact{
+            list-style-type: none;
+        } 
+        #contact i {
+            width: 30px;
+            color: darkgreen;
+        }
     </style>
 
 </head>
 <body>
     <div id="header"> 
         <div id="nameAndTitle">
-            <h1>AMANDA AZEVEDO DA SILVA BOZA</h1>
+            <h1>Amanda Azevedo da Silva Boza</h1>
             <h2>Desenvolvedor Front-End</h2>
         </div>
+    </div>
+
+    <div id="container">
+        <div id="sidebar">
+            <div class="card"> 
+                <h3>Contatos</h3>
+                <ul id="contact">
+                    <li><i class="fa-solid fa-envelope"></i>Email</li>
+                    <li><i class="fa-solid fa-phone"></i>Telefone</li>
+                    <li><i class="fa-solid fa-map-pin"></i>Local</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="content">
+            <div class="card">
+                <h3>Sobre mim</h3>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+            </div>
+        </div>
+
+        <div class="card"> 
+            <h3>Skills</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScrip</li>
+            </ul>
+        </div>
+
+        <div class="card"> 
+            <h3>Formação Acadêmica</h3>
+            <ul>
+                <li>Relações Internacionais | <b>Universidade Vila Velha</b></li>
+                <li>HTML / CSS | <b>Escola DNC</b></li>
+            </ul>
+        </div>
+
     </div>
 </body>
 </html>
