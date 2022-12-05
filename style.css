@@ -1,0 +1,31 @@
+#header {
+    background-color: darkgreen;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Lora', serif;
+}
+#nameAndTitle {
+    background-color: white;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+#contact{
+    list-style-type: none;
+} 
+#contact i {
+    width: 30px;
+    color: darkgreen;
+}
+#jobs {
+    list-style: none;
+}
+#container {
+    grid-template-columns: 30% auto;
+    display: grid;
+}
+#sidebar, #content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
