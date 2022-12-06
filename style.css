@@ -13,6 +13,9 @@
 #contact{
     list-style-type: none;
 } 
+h3 {
+    text-transform: uppercase;
+}
 #contact i {
     width: 30px;
     color: darkgreen;
@@ -22,10 +25,21 @@
 }
 #container {
     grid-template-columns: 30% auto;
-    display: grid;
+    display: inline-block;
+    grid-column-gap: 20px;
+
 }
 #sidebar, #content {
     display: flex;
     flex-direction: column;
     row-gap: 20px;
+}
+
+.card h3 {
+    font-family: 'Lora', serif;
+}
+.card {
+    border: gray;
+    border-radius: 15px;
+    padding: 20px;
 }
