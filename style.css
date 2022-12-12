@@ -1,11 +1,16 @@
 #header {
-    background-color: darkgreen;
-    margin-top: 50px;
+    background-color: gray;
     margin-bottom: 50px;
     font-family: 'Lora', serif;
+    height: 400px;
+    text-align: center;
 }
+
+#photo {
+
+}
+
 #nameAndTitle {
-    background-color: white;
     width: 500px;
     margin: 0 auto;
     text-align: center;
@@ -25,8 +30,7 @@ h3 {
 }
 #container {
     grid-template-columns: 30% auto;
-    display: inline-block;
-    grid-column-gap: 20px;
+    display: grid;
 
 }
 #sidebar, #content {
