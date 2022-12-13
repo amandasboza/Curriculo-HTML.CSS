@@ -2,12 +2,22 @@
     background-color: gray;
     margin-bottom: 50px;
     font-family: 'Lora', serif;
-    height: 400px;
+    height: 300px;
     text-align: center;
 }
 
-#photo {
+#knowMe {
+    width: 1500px;
+    height: 500px;
+    margin: 3% 10% 5% 11%;
+    background-color: rgba(128, 128, 128, 0.185);
+    font-family: 'Lora', serif;
+    text-align: justify;
+    }
 
+#aboutMe { 
+    margin-left: 5cm;
+    margin-right: 5cm;
 }
 
 #nameAndTitle {
@@ -17,13 +27,21 @@
 }
 #contact{
     list-style-type: none;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 } 
+
 h3 {
     text-transform: uppercase;
+    text-align: center;
 }
 #contact i {
-    width: 30px;
-    color: darkgreen;
+    width: 60px;
+    font-size: 25px;
+    color: rgb(80, 78, 78);
 }
 #jobs {
     list-style: none;
