@@ -9,7 +9,7 @@
 #knowMe {
     width: 1500px;
     height: 500px;
-    margin: 3% 10% 5% 11%;
+    margin: 3% 10% 0% 11%;
     background-color: rgba(128, 128, 128, 0.185);
     font-family: 'Lora', serif;
     text-align: justify;
@@ -25,9 +25,10 @@
     margin: 0 auto;
     text-align: center;
 }
+
 #contact{
     list-style-type: none;
-    height: 250px;
+    height: 300px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -35,33 +36,103 @@
 } 
 
 h3 {
+    color: white;
     text-transform: uppercase;
+    background-color:  gray;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+h1, h2 {
+    color: white;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+
 }
+
 #contact i {
     width: 60px;
     font-size: 25px;
     color: rgb(80, 78, 78);
 }
+
 #jobs {
     list-style: none;
 }
-#container {
-    grid-template-columns: 30% auto;
+
+#box {
+    grid-template-columns: 25% 25% 25% 25%;
     display: grid;
+    height: 350px;
+    margin-left: 10px;
+}
+
+
+#sidebar, #content, #terce, #quart {
+    width: 450px;
+    height: 100px;
+    background-color: gray;
+    margin: 1px 1px 1px 1px;
 
 }
-#sidebar, #content {
-    display: flex;
-    flex-direction: column;
-    row-gap: 20px;
+
+#skills, #language {
+    background-color: gray;
+    width: 450px;
+    height: 100px;
+    margin: 1px 1px 1px 1px;
+
 }
 
 .card h3 {
     font-family: 'Lora', serif;
 }
+
 .card {
     border: gray;
-    border-radius: 15px;
-    padding: 20px;
+    font-family: 'Lora', serif;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    display: inline-block
+
 }
+
+#habil {
+    grid-template-columns: 50% 50%;
+    display: grid;
+    height: 350px;
+    
+}
+
+.inside {
+    font-family: 'Lora', serif;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    display: inline-block    
+    
+}
+
+#texto {
+    position:fixed;
+    margin-bottom: 50px;
+}
+
+.just { 
+    font-family: 'Lora', serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display:grid;
+
+}
+
+
+
+
