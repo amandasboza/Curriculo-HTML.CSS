@@ -55,6 +55,9 @@ h1, h2 {
 
 }
 
+h4 {
+    text-align: center;
+}
 #contact i {
     width: 60px;
     font-size: 25px;
@@ -63,6 +66,8 @@ h1, h2 {
 
 #jobs {
     list-style: none;
+    font-family: 'Lora', serif;
+
 }
 
 #box {
@@ -89,6 +94,13 @@ h1, h2 {
 
 }
 
+#swift {
+    width: 1550px;
+    height: 100px;
+    background-color: gray;
+    margin: 1px 3px 1px 15px;
+}
+
 .card h3 {
     font-family: 'Lora', serif;
 }
@@ -104,9 +116,9 @@ h1, h2 {
 }
 
 #habil {
-    grid-template-columns: 50% 50%;
-    display: grid;
-    height: 350px;
+    display: flex;
+    height: 300px;
+    ;
     
 }
 
@@ -119,20 +131,15 @@ h1, h2 {
     
 }
 
-#texto {
-    position:fixed;
-    margin-bottom: 50px;
-}
+
 
 .just { 
     font-family: 'Lora', serif;
     text-align: center;
-    justify-content: center;
-    align-items: center;
-    display:grid;
-
+    display: block;
+    width: 420px;
+    height: 250px;
+    padding:5px 12px;
+    border-radius:10px;
+    margin-right: 0%;
 }
-
-
-
-
