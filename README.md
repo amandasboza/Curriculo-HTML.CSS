@@ -2,6 +2,8 @@
 
 ![Plano de Fundo Para Vídeo Rabiscos Modernos Cor e Estilo Bege Verde Preto (2)](https://user-images.githubusercontent.com/118373959/207983886-ed63a0e1-f692-4ebb-b0a5-5f93e085747e.gif)
 
+> Status: Finalizado ✅
+
 > Esse projeto foi desenvolvido com o objetivo de ter um primeiro contato com HTML e CSS após finalizar o curso iniciante da Escola DNC. Foi construido a partir dos conhecimentos adquiridos no curso e de maneira intuitiva, apenas escolhendo um modelo para inspiração, sem usar código base. Você pode observar o modelo clicando [aqui](https://cms-assets.tutsplus.com/cdn-cgi/image/width=850/uploads/users/1223/posts/28115/image/Decent.png).
 
 ### Conhecimentos que consegui desenvolver durante o projeto:
